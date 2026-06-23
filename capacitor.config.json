@@ -1,0 +1,30 @@
+{
+  "appId": "com.keyko.dailyreps",
+  "appName": "Daily Reps",
+  "webDir": "dist",
+  "ios": {
+    "scheme": "Daily Reps",
+    "backgroundColor": "#07080a",
+    "contentInset": "automatic",
+    "scrollEnabled": true,
+    "limitsNavigationsToAppBoundDomains": true,
+    "preferredContentMode": "mobile"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#07080a",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#ffffff",
+      "showSpinner": false,
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "App": {
+      "iosScheme": "dailyreps"
+    }
+  }
+}

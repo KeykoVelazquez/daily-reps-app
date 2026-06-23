@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(npm run *)",
+      "Bash(npx gh-pages *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(npx gh-pages-clean *)",
+      "Bash(node /Users/0080690/.npm/_npx/26d8ce0e2fd14fed/node_modules/gh-pages/bin/gh-pages-clean.js)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

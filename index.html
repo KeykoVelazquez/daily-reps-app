@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Daily Reps</title>
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        -webkit-tap-highlight-color: transparent;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: #07080a;
+      }
+      #root {
+        width: 100%;
+        min-height: 100%;
+      }
+      /* Eliminate 300ms tap delay on all interactive elements */
+      button, a, input, select, textarea {
+        touch-action: manipulation;
+        cursor: pointer;
+      }
+      /* Hide scrollbars but keep scrollability */
+      ::-webkit-scrollbar { display: none; }
+    </style>
+    <script type="module" crossorigin src="/daily-reps-app/assets/index-e_yznFlc.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
